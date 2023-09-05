@@ -6,7 +6,7 @@ const Employee = ({ id, firstName, lastName, position, description }) => {
     <div className="employee">
       <div className="employee-photo-wrapper">
         <img
-          src={id === 1 ? firstWomanPicturePicture : womanPicture}
+          src={id === 1 ? firstWomanPicture : womanPicture}
           alt="Zdjęcie pracownika"
           className="employee-photo"
         />
