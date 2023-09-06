@@ -1,7 +1,5 @@
 import firstWomanPicture from "../../images/pracownik-1.png";
 import womanPicture from "../../images/pracownik-2.jpg";
-import React from "react";
-import "./About.css";
 
 const Employee = ({ id, firstName, lastName, position, description }) => {
   return (

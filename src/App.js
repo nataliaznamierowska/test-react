@@ -1,4 +1,9 @@
 import "./App.css";
+import "./Header.css";
+import "./Footer.css";
+import "./About.css";
+import "./Navbar.css";
+import "./Offer.css";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";

@@ -1,3 +1,5 @@
+import React from "react";
+import "./Offer.css";
 import services from "../../data/Services";
 import ServiceBox from "./ServiceBox";
 
