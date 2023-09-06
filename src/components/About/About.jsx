@@ -1,8 +1,7 @@
-import employees from "../../data/Employees";
-import Employee from "./Employee";
 import React from "react";
 import "./About.css";
-
+import employees from "../../data/Employees";
+import Employee from "./Employee";
 
 const About = () => {
   return (
