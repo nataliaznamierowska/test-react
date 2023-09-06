@@ -1,0 +1,40 @@
+.header {
+    position: relative;
+    height: calc(100vh - 50px);
+    background-image: url("./images/background-forest.png");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .header-shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+  
+  .header-container {
+    position: relative;
+    color: #ffffff;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .header-title {
+    width: 73%;
+  }
+  
+  .header-button {
+    width: 164px;
+    height: 41px;
+    border: 3px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+  }
+  

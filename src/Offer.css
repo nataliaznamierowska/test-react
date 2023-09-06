@@ -1,0 +1,46 @@
+.offer {
+    width: 100%;
+    background-color: #405d78;
+  }
+  
+  .offer-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .offer-title {
+    color: #ffffff;
+    margin-bottom: 70px;
+  }
+  
+  .service {
+    width: 77%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .service-box {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #f1f1f1;
+    box-shadow: -2px 4px 6px rgba(0, 0, 0, 0.2), 2px 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .service-circle {
+    position: absolute;
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    left: -11px;
+    top: -11px;
+    background-color: #e07a64;
+  }

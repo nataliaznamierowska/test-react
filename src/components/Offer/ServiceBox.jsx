@@ -1,3 +1,6 @@
+import React from "react";
+import "./Offer.css";
+
 const ServiceBox = ({ name, number, isNew }) => {
   return (
     <div className="service-box">
